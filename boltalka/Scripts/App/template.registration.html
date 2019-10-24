@@ -1,0 +1,47 @@
+﻿<div *ngIf="visible" class="dialog">
+    <!--
+        <ng-content></ng-content>
+    -->
+    <h1>Регистрация</h1>
+    <br>
+    <p>
+        <b>Придумайте Nick:</b> <input type="text" size="20" maxlength="13" [(ngModel)]="NewRegistrationInformation.userNickName" (keyup)="InputUserNickName();" (focus)="UserFocusNickName();" (blur)="UserNickNameSymbolsValidate();">
+        <font>(не менее 3-х и не более 13-и символов, допустимые символы: а-я, А-Я, a-z, A-Z, 0-9, @_, -, |, $).</font>
+    </p>
+    <br>
+    <p>
+        <b>Придумайте пароль:</b> <input type="text" size="20" maxlength="16" [(ngModel)]="NewRegistrationInformation.userPassword" (keyup)="InputUserPassword();" (focus)="UserFocusPassword();" (blur)="UserPasswordSymbolsValidate();">
+        <font>(не менее 3-х и не более 16-и символов, допустимые символы: а-я, А-Я, a-z, A-Z, 0-9, @_, -, $).</font>
+    </p>
+    <br>
+    <p>
+        <b>Email:</b> <input type="text" size="20" maxlength="32" [(ngModel)]="NewRegistrationInformation.email" (blur)="UserEmailSymbolsValidate();">
+        <font>(необязательно, если понадобится восстановить пароль, не более 32-х символов, допустимые символы: a-z, A-Z, 0-9, @_, -)</font>
+    </p>
+
+    <br>
+    <p>
+        <b>Цвет никнейма: </b>
+        <select [(ngModel)]="NewRegistrationInformation.selectedNickColorValue" [ngStyle]="{'background-color':NewRegistrationInformation.selectedNickColorValue, 'color': NewRegistrationInformation.selectedNickColorValue}" (focus)="selectedNickColorValueFocus();">
+            <option *ngFor="let c of colors" [value]="c" [ngStyle]="{'background-color':c, 'color': c}">{{c}}</option>
+        </select>
+    </p>
+
+    <p>
+        <b>Цвет сообщений:</b>
+        <select [(ngModel)]="NewRegistrationInformation.selectedMsgColorValue" [ngStyle]="{'background-color':NewRegistrationInformation.selectedMsgColorValue, 'color': NewRegistrationInformation.selectedMsgColorValue}" (focus)="selectedMsgColorValueFocus();">
+            <option *ngFor="let c of colors" [value]="c" [ngStyle]="{'background-color':c, 'color': c}">{{c}}</option>
+        </select>
+    </p>
+
+    <br>
+    <p>
+        <b>Результат регистрации:</b>  {{RegStatys}}
+    </p>
+
+    <br>
+    <button class="RegBooton" (click)="SendRegInfo();">Регистрировать</button>
+
+    <button *ngIf="closable" (click)="close()" aria-label="Close" class="dialog__close-btn">X</button>
+</div>
+<div *ngIf="visible" class="overlay"></div>

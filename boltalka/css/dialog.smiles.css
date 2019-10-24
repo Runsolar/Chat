@@ -1,0 +1,1124 @@
+﻿.dialog {
+  position: fixed;
+  top: 125px;
+  height: 280px;
+  width: 143px;
+  font-family:Tahoma;
+  background-color:#000000;
+  color: yellow;
+  padding: 0px;
+  border-radius: 5px;
+  border: 1px solid #ffff66;
+}
+
+.dialog__close-btn { 
+  position: absolute;
+  border: 0;
+  background: none;
+  color: yellow;
+  top: 8px;
+  right: 8px;
+  font-size: 1.2em;
+}
+
+#s00{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s00:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s00path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s00path24:hover{
+    fill:#fffc4d;
+}
+
+#s01{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s01:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s01path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s01path24:hover{
+    fill:#fffc4d;
+}
+
+#s02{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s02:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s02path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s02path24:hover{
+    fill:#fffc4d;
+}
+
+#s03{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s03:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s03path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s03path24:hover{
+    fill:#fffc4d;
+}
+
+#s04{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s04:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s04path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s04path24:hover{
+    fill:#fffc4d;
+}
+
+#s05{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s05:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s05path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s05path24:hover{
+    fill:#fffc4d;
+}
+
+#s06{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s06:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s06path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s06path24:hover{
+    fill:#fffc4d;
+}
+
+#s07{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s07:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s07path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s07path24:hover{
+    fill:#fffc4d;
+}
+
+#s08{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s08:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s08path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s08path24:hover{
+    fill:#fffc4d;
+}
+
+#s09{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s09:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s09path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s09path24:hover{
+    fill:#fffc4d;
+}
+
+#s10{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s10:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s10path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s10path24:hover{
+    fill:#fffc4d;
+}
+
+#s11{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s11:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s11path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s11path24:hover{
+    fill:#fffc4d;
+}
+
+#s12{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s12:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s12path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s12path24:hover{
+    fill:#fffc4d;
+}
+
+#s13{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s13:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s13path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s13path24:hover{
+    fill:#fffc4d;
+}
+
+#s14{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s14:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s14path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s14path24:hover{
+    fill:#fffc4d;
+}
+
+#s15{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s15:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s15path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s15path24:hover{
+    fill:#fffc4d;
+}
+
+#s16{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s16:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s16path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s16path24:hover{
+    fill:#fffc4d;
+}
+
+#s17{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s17:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s17path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s17path24:hover{
+    fill:#fffc4d;
+}
+
+#s18{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s18:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s18path24{
+    fill:#fdcb58;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s18path24:hover{
+    fill:#fffc4d;
+}
+
+#s19{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s19:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s19path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s19path24:hover{
+    fill:#fffc4d;
+}
+
+#s20{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s20:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s20path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s20path24:hover{
+    fill:#fffc4d;
+}
+
+#s21{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s21:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s21path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s21path24:hover{
+    fill:#fffc4d;
+}
+
+#s22{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s22:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s22path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s22path24:hover{
+    fill:#fffc4d;
+}
+
+#s23{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s23:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s23path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s23path24:hover{
+    fill:#fffc4d;
+}
+
+#s24{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s24:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s24path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s24path24:hover{
+    fill:#fffc4d;
+}
+
+#s25{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s25:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s25path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s25path24:hover{
+    fill:#fffc4d;
+}
+
+#s26{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s26:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s26path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s26path24:hover{
+    fill:#fffc4d;
+}
+
+#s27{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s27:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s27path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s27path24:hover{
+    fill:#fffc4d;
+}
+
+#s28{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s28:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s28path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s28path24:hover{
+    fill:#fffc4d;
+}
+
+#s29{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s29:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s29path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s29path24:hover{
+    fill:#fffc4d;
+}
+
+#s30{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s30:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s30path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s30path24:hover{
+    fill:#fffc4d;
+}
+
+#s31{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s31:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s31path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s31path24:hover{
+    fill:#fffc4d;
+}
+
+#s32{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s32:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s32path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s32path24:hover{
+    fill:#fffc4d;
+}
+
+#s33{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s33:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s33path24{
+    fill:#fdcb58;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s33path24:hover{
+    fill:#fffc4d;
+}
+
+#s34{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s34:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s34path24{
+    fill:#da2f47;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s34path24:hover{
+    fill:#ff0023;
+}
+
+#s35{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s35:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s35path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s35path24:hover{
+    fill:#fffc4d;
+}
+
+#s36{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s36:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s36path24{
+    fill:#fdcb58;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s36path24:hover{
+    fill:#fffc4d;
+}
+
+#s37{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s37:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s37path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s37path24:hover{
+    fill:#fffc4d;
+}
+
+#s38{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s38:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s38path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s38path24:hover{
+    fill:#fffc4d;
+}
+
+#s39{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s39:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s39path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s39path24:hover{
+    fill:#fffc4d;
+}
+
+#s40{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s40:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s40path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s40path24:hover{
+    fill:#fffc4d;
+}
+
+#s41{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s41:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s41path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s41path24:hover{
+    fill:#fffc4d;
+}
+
+#s42{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s42:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s42path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s42path24:hover{
+    fill:#fffc4d;
+}
+
+#s43{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s43:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s43path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s43path24:hover{
+    fill:#fffc4d;
+}
+
+#s44{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s44:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s44path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s44path24:hover{
+    fill:#fffc4d;
+}
+
+#s45{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s45:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s45path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s45path24:hover{
+    fill:#fffc4d;
+}
+
+#s46{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s46:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s46path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s46path24:hover{
+    fill:#fffc4d;
+}
+
+#s47{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s47:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s47path24{
+    fill:#aa8ed6;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s47path24:hover{
+    fill:#d3c2ef;
+}
+
+#s48{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s48:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s48path24{
+    fill:#aa8ed6;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s48path24:hover{
+    fill:#d3c2ef;
+}
+
+#s49{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s49:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s49path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s49path24:hover{
+    fill:#fffc4d;
+}
+
+#s50{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s50:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s50path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s50path24:hover{
+    fill:#fffc4d;
+}
+
+#s51{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s51:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s51path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s51path24:hover{
+    fill:#fffc4d;
+}
+
+#s52{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s52:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s52path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s52path24:hover{
+    fill:#fffc4d;
+}
+
+#s53{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s53:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s53path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s53path24:hover{
+    fill:#fffc4d;
+}
+
+#s54{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s54:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s54path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s54path24:hover{
+    fill:#fffc4d;
+}
+
+#s55{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s55:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s55path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s55path24:hover{
+    fill:#fffc4d;
+}
+
+#s56{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s56:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s56path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s56path24:hover{
+    fill:#fffc4d;
+}
+
+#s57{
+    height:24px; 
+    width:24px;
+    outline: 0;
+}
+#s57:hover {
+    cursor:pointer;
+    outline: 0;
+}
+#s57path24{
+    fill:#ffcc4d;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none
+}
+#s57path24:hover{
+    fill:#fffc4d;
+}

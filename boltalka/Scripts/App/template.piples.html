@@ -1,0 +1,51 @@
+﻿<div *ngIf="visible && auth" class="piples dialog">
+    <button *ngIf="closable" (click)="close()" aria-label="Close" class="dialog__close-btn">X</button>
+
+    <h5>Поиск пиплов</h5>
+    <p>
+        <b>NickName:</b>
+        <input type="text" size="20" maxlength="13" [(ngModel)]="userNickName" (keyup)="InputUserNickName();">
+    </p>
+
+    <table class="table">
+        <tr>
+            <th width="70">
+                [Никнейм]
+            </th>
+
+            <th width="30"></th>
+
+            <th width="70">
+                [Регистрация]
+            </th>
+
+            <th width="20"></th>
+
+            <th width="65">
+                [Б]
+            </th>
+
+        </tr>
+    </table>
+    
+    <div style="height:350px; overflow-y: auto;">
+        <table class="table">
+            <tr *ngFor="let user of usersofline" style="font-size:12px; margin:4px; padding-left:0px;">
+                <td width="80px">
+                    <font style="cursor: pointer;" color="{{user.NickColor}}">
+                        {{user.NickName}}
+                    </font>
+                </td>
+                <td width="20px"></td>
+                <td td width="120px">{{user.RegistrationDate}}</td>
+                <th width="10"></th>
+                <td td width="30px">
+                    <input *ngIf="(MyGid == 10)" type="checkbox" name="banned" value="{{user.banned}}" [checked]="user.banned" (change)="userban(user.NickName, user.banned=!user.banned)">
+                    <input *ngIf="(MyGid != 10)" type="checkbox" disabled="disabled" name="banned" value="{{user.banned}}" [checked]="user.banned">           
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <button *ngIf="closable" (click)="close()" aria-label="Close" class="dialog__close-btn">X</button>
+</div>
